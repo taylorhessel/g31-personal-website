@@ -519,13 +519,13 @@ textarea {
     }*/
     .info-picture {
         float: left;
-        width: 33.3%;
+        width: 20%;
         position: relative;
         min-height: 215px;
     }
     .info-text {
         float: right;
-        width: 66.7%;
+        width: 80%;
         min-height: 215px;
         position: relative;
         display: flex;
@@ -557,12 +557,8 @@ textarea {
 
 @media only screen and (min-width: 1200px) {
     .info-container, .future-container {}
-    .info-picture {
-        width: 25%;
-    }
-    .info-text {
-        width: 75%;
-    }
+    .info-picture {}
+    .info-text {}
     .giraffe, .jack {
         max-width: 115px;
     }
