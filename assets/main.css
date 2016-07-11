@@ -435,18 +435,10 @@ textarea {
 
 /* MY STYLES BEGIN */
 
-.main-wrapper {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 .info-container, .future-container {
     color: #fff;
     width: 70vmin;
-    margin: auto;
+    margin: 60px auto auto;
 }
 .info-picture {
     display: flex;
@@ -503,8 +495,17 @@ textarea {
 /* Small devices (tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
+    .main-wrapper {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .info-container, .future-container {
         width: 80vmin;
+        margin: 0;
     }
     /*.future-container {
         height: 160px;
