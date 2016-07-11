@@ -437,7 +437,7 @@ textarea {
 
 .info-container, .future-container {
     color: #fff;
-    width: 70vmin;
+    width: 70vw;
     margin: 60px auto auto;
 }
 .info-picture {
@@ -504,7 +504,6 @@ textarea {
         align-items: center;
     }
     .info-container, .future-container {
-        width: 80vmin;
         margin: 0;
     }
     /*.future-container {
@@ -552,7 +551,7 @@ textarea {
 
 @media only screen and (min-width: 992px) {
     .info-container, .future-container {
-        width: 100vmin;
+        width: 65vw;
     }
     .info-picture {
         width: 25%;
@@ -568,7 +567,9 @@ textarea {
 /* Large devices (large desktops, 1200px and up) */
 
 @media only screen and (min-width: 1200px) {
-    .info-container, .future-container {}
+    .info-container, .future-container {
+        width: 50vw;
+    }
     .info-picture {}
     .info-text {}
 }
