@@ -504,7 +504,7 @@ textarea {
 
 @media only screen and (min-width: 768px) {
     .info-container, .future-container {
-        width: 100vmin;
+        width: 70vmin;
     }
     /*.future-container {
         height: 160px;
@@ -519,13 +519,13 @@ textarea {
     }*/
     .info-picture {
         float: left;
-        width: 20%;
+        width: 33.3%;
         position: relative;
         min-height: 215px;
     }
     .info-text {
         float: right;
-        width: 80%;
+        width: 66.7%;
         min-height: 215px;
         position: relative;
         display: flex;
@@ -551,7 +551,17 @@ textarea {
 
 /* Medium devices (desktops, 992px and up) */
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .info-container, .future-container {
+        width: 100vmin;
+    }
+    .info-picture {
+        width: 20%;
+    }
+    .info-text {
+        width: 80%;
+    }
+}
 
 /* Large devices (large desktops, 1200px and up) */
 
@@ -559,7 +569,4 @@ textarea {
     .info-container, .future-container {}
     .info-picture {}
     .info-text {}
-    .giraffe, .jack {
-        max-width: 115px;
-    }
 }
