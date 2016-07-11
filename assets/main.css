@@ -507,6 +507,7 @@ textarea {
         align-items: center;
     }
     .info-container, .future-container {
+        width: 75vw;
         margin: 0;
     }
     /*.future-container {
